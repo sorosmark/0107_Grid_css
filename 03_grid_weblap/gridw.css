@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav main main"
+    "nav aside sidebar"
+    "footer footer footer";
+}
+
+header {grid-area: haeder; background-color: lightblue;}
+nav  {grid-area: nav; background-color: aquamarine;}
+footer {grid-area: footer; background-color: gainsboro;}
